@@ -1,0 +1,156 @@
+*{
+    
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Scope One", serif;
+    
+}
+.clear-fix {clear:both}
+.container{margin:auto; width:1220px;}
+/*start navbar*/
+
+/*end navbar*/
+/*start hrader*/
+.slider{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(banner.jpg);
+    background-size:cover;
+    height:100%;
+    text-align: center;
+    background-position: center;   
+}
+.slider .header{background: rgba(0, 0, 0, 0.75);}
+
+.nav{line-height:2.2;letter-spacing:1px;  padding:0px 16px;background: rgba(0, 0, 0, 0.75); position: fixed;width: 100%;height: 6%; overflow: hidden}
+
+.nav .logo{float:left; letter-spacing:1px; }
+
+.nav .logo h2{color:#fff;font-size:15px;font-weight:normal; }
+
+.nav .logo h2 span{color:#3498db;font-size:19px}
+
+.nav .sidebar{ color:#fff;}
+
+.intro{padding-top:250px;}
+
+.sidebar{float:right;padding:9px 5px;cursor: pointer;font-size: 14px;}
+
+.sidebar i{padding-right:5px; }
+
+.sidebar:hover{color:#3498db }
+
+.slider h1{color:#fff;font-size:50px;}
+
+.slider p {
+    letter-spacing: 1px;
+    font-size:28px;
+    padding:0 370px;  
+    color:rgba(255, 255, 255, 0.85);
+    margin-top:30px;
+    line-height:40px;
+}
+.slider button{
+    background: #3498db;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold; 
+    border:1px solid #3498db;
+    border-radius:5px; 
+    padding:16px 30px;
+    margin-top:30px;
+}
+/*start Maecenas*/
+.Maecenas{float:left;width: 100%}
+
+.Maecenas img{;margin-right:60px}
+
+.Maecenas{margin-bottom:60px; margin-top:60px;}
+
+.Maecenas .infomation p{margin-top:30px; color:#ddd;padding-right: 60px}
+
+.Maecenas .infomation button{
+    background:#3498db; 
+    border:1px solid #3498db;
+    padding:12px 25px;
+    border-radius:5px;
+    color:#fff;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:30px;
+    }
+    /*end Maecenas*/
+    /*start Suspendisse*/
+.Suspendisse{
+    clear: both;
+    padding:80px;
+   
+    overflow: hidden;
+    background-color:#3498db;
+    }
+.Suspendisse img{
+    float:right;
+    margin-right:60px;
+    margin-left: 60px;
+    border:7px solid #3498db;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px #aed6f1;   
+}
+.Suspendisse.infomation{float:left;}
+
+.Suspendisse .infomation h2{color:#fff;}
+
+.Suspendisse .infomation p{margin-top:30px;color:#aed6f1;}
+
+.Suspendisse .infomation button{
+    background:#fff; 
+    border:1px solid #fff;
+    padding:12px 23px;
+    border-radius:5px;
+    color:#3498db;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:30px;
+    }
+
+   /*end Suspendisse*/
+   /*start Aliquam*/
+.Aliquam{background-color: #fafafa; height:100%;text-align: center;padding-bottom: 53%;width:100% }
+.container .header h2{color:#000;font-size:40px;font-weight:normal;margin-bottom: 23px;padding-top: 80px;}
+.container .header p{font-size:20px;color:#bfbfbf;}
+.container .imges img{margin-bottom:25px;margin-top: 30px; }
+.container .imges > div{width:33.333333%;float:left;padding: 30px;} 
+.container .imges p{margin-top:120px;color:#bfbfbf;padding:0 10px;}
+.container .imges button{
+    background:#3498db; 
+    border:1px solid #3498db;
+    padding:12px 23px;
+    border-radius:5px;
+    color:#fff;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:30px;
+    margin-bottom:150px
+}
+img{float: left;;border-radius: 50%;border:7px solid ;color:#fff;box-shadow:0px 0px 0px 1px rgba(0,0,0,0.1),0px 0px 0px 0px #fff; }
+p{line-height: 24px}
+   /*end Aliquam*/
+   /*start footer*/
+.footer ul{text-align: center;margin: 0px;padding:0px;}
+.footer ul li{
+    list-style:none;
+    margin-left:0;
+    color:#999;
+    font-size:25px;
+    padding:5px 7px;
+    display: inline;
+    margin:0 13px;
+    background: #fff;
+    border-radius:100%;
+    border:0px solid #ddd;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.footer ul li:hover{color:#3498db;cursor:pointer;}
+.fa{width:25px;}
+.footer ul i{  margin-bottom:40px;}
+.footer p{text-align: center;color:#bfbfbf;font-size:14px;  margin-bottom: 90px;}
+.footer span{color:#999;font-weight:normal;}
+   /*end footer*/
